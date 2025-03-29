@@ -1,0 +1,25 @@
+.buttons{
+    display: flex;
+}
+
+.card1{
+    background-color: #f5bed2;
+    margin-top: 4rem;
+}
+
+.button1{
+    background-color: #E69DB8;
+    border: none;
+}
+.button1:hover{
+    background-color: #e9bacb;
+}
+
+.fimdapag{
+    text-align: center;
+}
+.textfinal{
+    color: #b6abaf;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
