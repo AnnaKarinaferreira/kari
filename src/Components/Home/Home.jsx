@@ -19,9 +19,9 @@ const Home = () => {
         </div>
        </div>
        <div className="box2">
-        <a href="/Projects"><button className="buttons">Projects</button></a>
-        <a href="#"><button className="buttons">Skills</button></a>
-        <a href="#"><button className="buttons">About Me</button></a>
+        <a href="/Projects"><button className="buttons"><p className="namebutton">Projects</p></button></a>
+        <a href="#"><button className="buttons"><p className="namebutton">Skills</p></button></a>
+        <a href="#"><button className="buttons"><p className="namebutton">About Me</p></button></a>
        </div>
       </div>
         </>

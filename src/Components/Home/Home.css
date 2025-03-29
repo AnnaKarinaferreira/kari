@@ -27,7 +27,7 @@
 
 .box2{
     margin-top: 5rem;
-
+    display: flex;
 }
 
 a .buttons{
@@ -86,6 +86,8 @@ a .buttons:after {
     top: 0;
     border-radius: 10px;
 }
+
+
 
 @keyframes glowing {
     0% { background-position: 0 0; }
