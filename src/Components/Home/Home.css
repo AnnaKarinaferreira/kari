@@ -30,22 +30,23 @@
     display: flex;
 }
 
-a .buttons{
+
+a .button{
     width: 220px;
     height: 50px;
     border: none;
     outline: none;
-    color: #ffffff;
-    background: #e587a9;
+    color: #fff;
+    background: #111;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    margin-left: 1rem;
+    margin-left: 1.2rem;
 }
 
 
-a .buttons::before{
+a .button:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -53,7 +54,7 @@ a .buttons::before{
     left:-2px;
     background-size: 400%;
     z-index: -1;
-    filter: blur(10px);
+    filter: blur(5px);
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
@@ -62,36 +63,32 @@ a .buttons::before{
     border-radius: 10px;
 }
 
-
-a .buttons:active {
-    color: #ffccdf
+a .button:active {
+    color: #000
 }
 
-a .buttons:active:after {
+a .button:active:after {
     background: transparent;
 }
 
-a .buttons:hover:before {
+a .button:hover:before {
     opacity: 1;
 }
 
-a .buttons:after {
+a .button:after {
     z-index: -1;
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #df86a7;
+    background: #111;
     left: 0;
     top: 0;
     border-radius: 10px;
 }
-
-
 
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-  

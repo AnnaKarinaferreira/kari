@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './Home.css'
-import Header from '../Header/Header.jsx'
+import './Home.css';
+import Header from '../Header/Header.jsx';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import Projecs from '../Projects/Projects.jsx'
+import Projecs from '../Projects/Projects.jsx';
+import Habilidades from "../Habilidades/Habilidades.jsx";
 
 const Home = () => {
     return(
@@ -19,9 +20,9 @@ const Home = () => {
         </div>
        </div>
        <div className="box2">
-        <a href="/Projects"><button className="buttons"><p className="namebutton">Projects</p></button></a>
-        <a href="#"><button className="buttons"><p className="namebutton">Skills</p></button></a>
-        <a href="#"><button className="buttons"><p className="namebutton">About Me</p></button></a>
+        <a href="/Projects"> <button className="button">Projetos</button> </a>
+        <a href="/Habilidades"> <button className="button">Habilidades</button> </a>
+        <a href="#"> <button className="button">Sobre mim</button> </a>
        </div>
       </div>
         </>

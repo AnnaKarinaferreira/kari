@@ -8,6 +8,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 import Home from './Components/Home/Home.jsx';
 import Projects from './Components/Projects/Projects.jsx';
+import Habilidades  from './Components/Habilidades/Habilidades.jsx';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home/>} />
       <Route path='/Projects'  element={<Projects/>} />
+      <Route path='/Habilidades' element={<Habilidades/>}  />
       </Routes>
     </Router>
   )
