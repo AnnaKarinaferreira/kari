@@ -1,3 +1,4 @@
+
 #root{
     padding: 2rem;
 }
@@ -7,7 +8,6 @@ body{
 .nome{
     display: flex;  /*alinha as divs que contem dentro*/
     color: #ffffff;
-    font-family: 'Flamenco', sans-serif;
                                                 
 }
 
@@ -18,12 +18,13 @@ body{
 .link1,
 .link2,
 .link3{
-    margin-left: 2rem;
+    margin-left: 1rem;
     text-decoration: none;
     font-size: 1rem;
     color: #ffffff;
     display: inline-block;
     transition: transform 0.5s ease-in-out;
+
                                                 
 }
 

@@ -7,7 +7,7 @@ const Header = () => {
         <>
         
         <div className='nome'>
-            <p className='nomeheader'>PORTFOLIO</p>
+            <p className='nomeheader'>FULLSTACK DEVELOPER</p>
             <div className='links'>
             <a href="#" className='link1' >GitHub</a>
             <a href="#" className='link2'>Netlify</a>

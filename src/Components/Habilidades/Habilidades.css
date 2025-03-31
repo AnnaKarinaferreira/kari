@@ -1,3 +1,13 @@
-.imgreact{
-    height: 5%;
+@import url('https://fonts.cdnfonts.com/css/great-britain');
+.react{
+    height: 9rem;
+    margin-top: 5rem;
+}
+
+.titleskills{
+    font-size: 4rem;
+    margin-top: 3rem;
+    font-family: 'Great Britain', sans-serif;
+    color:#f0c4d4 ;
+                                                
 }

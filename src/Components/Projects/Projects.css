@@ -2,11 +2,6 @@
     display: flex;
 }
 
-.card1{
-    background-color: #111;
-    margin-top: 4rem;
-}
-
 .button1{
     background-color: #E69DB8;
     border: none;
@@ -18,14 +13,42 @@
 .fimdapag{
     text-align: center;
 }
-.textfinal{
-    color: #b6abaf;
-    font-size: 1.3rem;
-    margin-top: 3rem;
+
+.card1{
+    background-color: #111;
+    margin-left: 5rem;
 }
 
-.textcard{
-    color: aliceblue;
+.textcolor{
+    color: #f5eef1;
+}
+
+.subtextcolor{
+    color: #ffffff;
+}
+
+.buttoncard{
+    background-color: #111;
+    border-color: #E69DB8;
+}
+
+.buttoncard:hover{
+    background-color: #000000;
+    border-color: #111;
+}
+
+.cardslinha1{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.fimdapag{
+    margin-top: 5rem;
+}
+
+.textfinal{
+    color: #f5eef1;
+    font-size: 20px;
 }
 
 .linkgit{
