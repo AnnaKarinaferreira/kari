@@ -1,14 +1,61 @@
 @import url('https://fonts.cdnfonts.com/css/primer');
 
 .react{
-    height: 9rem;
+    height: 10rem;
     margin-top: 5rem;
+    cursor: pointer;
+    position: static;
 }
 
+.namereact{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: aqua;
+    margin-left: 3rem;
+    position: static;
+}
+
+.bootstrap{
+    height: 9rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    position: static;
+}
+
+.namebootstrap{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgb(117, 85, 233);
+    margin-left: 5.5rem;
+    position: static;
+}
+
+.node{
+    height: 12rem;
+    margin-left: 9rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    position: static;
+}
+.namenode{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgb(52, 211, 52);
+    margin-left: 12rem;
+    position: static;
+}
 .titleskills{
     font-size: 4rem;
     margin-top: 3rem;
     font-family: 'Primer', sans-serif;
     color:#ffffff ;
+    position: static;
                                                 
+}
+
+
+.linha1{
+    display: flex;
+    position: static;
 }
