@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/primer');
+
+
 .buttons{
     display: flex;
 }
@@ -21,10 +24,14 @@
 
 .textcolor{
     color: #f5eef1;
+    font-family: 'Primer', sans-serif;
+
 }
 
 .subtextcolor{
     color: #ffffff;
+    font-family: 'Primer', sans-serif;
+
 }
 
 .buttoncard{

@@ -10,7 +10,7 @@ const Habilidades = () => {
         <>
         <Header></Header>
 
-        <p className='titleskills'>Habilidades e Tecnologias</p>
+        <p className='titleskills'>T E C N O L O G I A S</p>
 
         <div className='linha1'>
             <div> 

@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/lexend-giga');
+@import url('https://fonts.cdnfonts.com/css/primer');
 
 
 #root{
@@ -13,8 +13,8 @@
     letter-spacing: 5rem;
     color: #e587a9;
     margin-left: 3rem;
-    font-family: 'Lexend Giga', sans-serif;
-    
+    font-family: 'Primer', sans-serif;
+                                                    
 }
 
 
@@ -25,8 +25,8 @@
     margin-top: 2rem;
     color: #E69DB8;
     margin-left: 3rem;
-    font-family: 'Lexend Giga', sans-serif;
-
+    font-family: 'Primer', sans-serif;
+                                                
 }
 
 
