@@ -22,7 +22,6 @@ const Home = () => {
        <div className="box2">
         <a href="/Projects"> <button className="button">Projetos</button> </a>
         <a href="/Habilidades"> <button className="button">Habilidades</button> </a>
-        <a href="#"> <button className="button">Sobre mim</button> </a>
        </div>
       </div>
         </>
